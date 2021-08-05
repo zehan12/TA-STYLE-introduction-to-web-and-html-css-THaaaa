@@ -1,0 +1,11 @@
+body{
+    background-color: blueviolet;
+}
+p{
+ color: rgb(127, 255, 0);
+ font-size: 25px;
+}
+#head{
+    font-size: 70px;
+    color:darkred;
+}
