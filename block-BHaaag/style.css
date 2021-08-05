@@ -1,0 +1,26 @@
+body{
+    background-color:navy;
+    padding: 0 15px;
+
+}
+.heading{
+    color: white;
+    font-style:initial;
+}
+p{
+    color: white;
+}
+span{
+    padding: 0 5px;
+}
+.greenhead{
+    color: rgb(64, 175, 129);
+}
+h2{
+    color: white;
+}
+strong{
+    color: red;
+    margin: 5px;
+    text-decoration: underline;
+}
