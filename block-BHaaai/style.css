@@ -1,0 +1,33 @@
+.top{
+    text-align: center;
+}
+body{
+    background-color:#22396a;
+    padding: 0 15px;
+
+}
+.heading{
+    color: white;
+    font-style:initial;
+}
+p{
+    color: white;
+}
+.greenhead{
+    color: rgb(64, 175, 129);
+}
+h2{
+    color: white;
+}
+strong{
+    color: red;
+    margin: 5px;
+    text-decoration: underline;
+}
+div{
+    text-align: center;
+    background-color: rgb(11, 6, 63);
+    height: 30px;
+    padding-top: 10px;
+    margin-bottom: 50px;
+}
