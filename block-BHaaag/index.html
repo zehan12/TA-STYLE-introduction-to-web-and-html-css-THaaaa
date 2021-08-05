@@ -2,27 +2,32 @@
   ### Create a page according to the design shown below.
 
   TODO:
-    - Open this image in a window for the design layout - (https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/introduction/assignment2.png)
+    - Open this image in a window for the design layout - (https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/introduction/assignment1.png)
     - Use external stylesheet to style the page.
-    - For applying image use `<img src="" alt="">` tag. 
-      Keep source of the image inside `src=""` attribute. 
-      Put an alternative text of the image inside `alt=""` attribute. 
-      You can can also apply width and height to the image by applying `width="" and height=""` attribute inside image tag. for example - `<img src="suraj.jpg" alt="suraj" width="200" height="200">`
-    - For centering the element apply `text-align: center`, to the parent of the element in CSS. 
+    - For different level of heading use different heading elements. We have Six level of heading elements:
+      - `<h1></h1>`
+      - `<h2></h2>`
+      - `<h3></h3>`
+      - `<h4></h4>`
+      - `<h5></h5>`
+      - `<h6></h6>`
+
+    - Wrap the text or word inside `<strong></strong> or <b></b>` tag to make it bold.
+    - Wrap the text or word inside `<em></em> or <i></i>` tag to make it italicize.
+    - Use `<address></address>` tag for addresses. 
 -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF=8" />
-    <title>web Resume with image</title>
-    <link href="style.css" rel="stylesheet"/>
-    <body>
-      <section class="top">
-        <img src="./image.jpg" alt="zehan" width="200" height="200">
-        <h1 class="heading">Zehan Khan</h1>
-    <p>zehan9211@gmail.com<span>/</span>Udaipur, Rajasthan</p> </section>
-        <h1 class="greenhead">Experience</h1>
-        <h2>Senior Front End Developer</h2>
+    <meta charset="UTF-8" />
+    <title> form a web resume</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <h1 class="heading">Peter Mullins</h1>
+    <p>peter.mullins@gmail.com<span>/</span>Rochester, fNew York</p> 
+    <h1 class="greenhead">Experience</h1>
+    <h2>Senior Front End Developer</h2>
     <p>Design web applications according to client briefs and modify designs to meet changes in client specifications.<br>
       Develop web products by coding wireframes into elements that users can interact with.<br>
       Work in a team of web designers, back end developers and UX designers to meet project goals and create effective user experiences with digital<br>
@@ -44,13 +49,11 @@
           Assisted senior Front End Developers in designing web applications and gained skills in aligning designs with client requirements.<br>
           Gained experience in resolving conflicts with colleagues professionally.<br>
           Learned to interact with clients, present designs and handle feedback on work.</p>
+        <h1 class="greenhead">Skills</h2>
 
-          <h1 class="greenhead">Skills</h2>
+        <p>HTML</p> <p>CSS</p> <p>React</p> <p>JavaScript</p> <p>Photoshop</p> <p>Illustrator</p> 
+        <h1 class="greenhead"> Connect</h1>
+        <strong>Twitter</strong> <strong>Linkedin</strong> <strong>Istagram</strong> <strong>Facebook</strong>
 
-          <p>HTML</p> <p>CSS</p> <p>React</p> <p>JavaScript</p> <p>Photoshop</p> <p>Illustrator</p>
-          <div>
-          <strong>Twitter</strong> <strong>Linkedin</strong> <strong>Istagram</strong> <strong>Facebook</strong> </div>
-      </footer>
-    </body>
-  </head>
+  </body>
 </html>
